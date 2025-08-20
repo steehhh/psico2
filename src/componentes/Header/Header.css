@@ -1,14 +1,14 @@
 .header__nav_list {
     display: grid;
     width: 100%;
-    grid-template-columns: auto auto auto auto;
-    gap: 50px;
+    grid-template-columns: auto 1fr auto auto;
     list-style-type: none;
     align-items: center;
+    gap: 30px;
 }
 
 .header {
-    padding: 12px 2%;
+    padding: 12px 1%;
     width: 100%;
     background-color: #000000;
 }
