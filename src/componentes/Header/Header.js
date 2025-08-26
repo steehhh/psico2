@@ -1,6 +1,12 @@
 import './Header.css'
+import React, { useState } from 'react';
 
 function Header() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const handleMenuToggle = () => {
+        setIsMenuOpen(!isMenuOpen);
+    }
+
     return (
         <header className="header">
             <nav className="header_nav">
@@ -19,8 +25,25 @@ function Header() {
                     </li>
                 </ul>
             </nav>
+
+            <div className="hamburger-container" onClick={handleMenuToggle}>
+                <div className={`hamburger-icon ${isMenuOpen ? 'open' : ''}`}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <nav className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
+                <button className="mobile-menu__close" onClick={handleMenuToggle}>×</button>
+                <ul className='mobile-menu__list'>
+                    <li><a href='#' onClick={handleMenuToggle}>Serviços</a></li>
+                    <li><a href='#' onClick={handleMenuToggle}>Quem Sou</a></li>
+                    <li><a href='#' onClick={handleMenuToggle}>Agende agora</a></li>
+                </ul>
+            </nav>
         </header>
     )
-}
 
+}
 export default Header
