@@ -1,0 +1,41 @@
+.Hero {
+    position: relative;
+    text-align: center;
+    padding: clamp(60px, 8vh, 120px) clamp(16px, 5vw, 40px);
+    color: #fff;
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(1, 41, 129, 0.349), rgba(3, 24, 82, 0.5)),
+        url('/public/cadeiras.png') center/cover no-repeat;
+    ;
+}
+
+.Hero h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.Hero p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffffffdc;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.Hero button {
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding: 20px 40px;
+    background-color: #656565;
+    border: none;
+    border-radius: 45px;
+    font-size: 13px;
+    cursor: pointer;
+}

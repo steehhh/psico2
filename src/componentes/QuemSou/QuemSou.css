@@ -1,0 +1,28 @@
+.Sobre {
+    background-color: #245c73;
+    position: relative;
+    padding: clamp(60px, 8vh, 120px) clamp(16px, 5vw, 40px);
+    color: #fff;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: 3fr 3fr; 
+    align-items: center;           
+    justify-items: center;        
+    gap: 40px;                     
+}
+
+.Sobre h1 {   
+    font-size: 46px;          
+    color: #fff;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.Sobre p {     
+    font-size: 19px;        
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    width: 400px;                 
+    line-height: 1.5em;
+}

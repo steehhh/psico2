@@ -23,7 +23,7 @@
   max-width: 1910px;
   margin: 0 auto;
   padding: 12px clamp(10px, 2vw, 12px);
-  background-color: #000000;
+  background: linear-gradient(rgba(35, 36, 36, 0.644), rgba(35, 36, 36, 0.644));
 }
 
 .header__nav_list_link {
@@ -71,11 +71,11 @@
   font-size: 17px;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.1s;
+  transition: background-color 0.5s;
 }
 
 .header__nav_list_button:hover {
-  background-color: #656565;
+  background-color: #656565d2;
 }
 
 @media screen and (max-width: 565px) {
