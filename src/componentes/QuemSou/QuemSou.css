@@ -4,25 +4,35 @@
     padding: clamp(60px, 8vh, 120px) clamp(16px, 5vw, 40px);
     color: #fff;
     min-height: 50vh;
-    display: grid;
-    grid-template-columns: 3fr 3fr; 
-    align-items: center;           
-    justify-items: center;        
-    gap: 40px;                     
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.Sobre h1 {   
-    font-size: 46px;          
+.Sobre h1 { 
+    font-size: 47px; 
     color: #fff;
     font-weight: lighter;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    flex-shrink: 0; 
+    flex-basis: 300px; 
 }
 
-.Sobre p {     
-    font-size: 19px;        
+.paragrafo-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex: 1 1 500px; 
+}
+
+.Sobre p {   
+    font-size: 19px;     
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    width: 400px;                 
+    margin: 0; 
+    max-width: 500px;
     line-height: 1.5em;
+    text-align: justify;
 }
