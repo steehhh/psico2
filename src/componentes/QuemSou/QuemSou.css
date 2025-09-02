@@ -5,34 +5,40 @@
     color: #fff;
     min-height: 50vh;
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.Sobre h1 { 
-    font-size: 47px; 
+.Sobre h1 {
+    font-size: 47px;
     color: #fff;
     font-weight: lighter;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    flex-shrink: 0; 
-    flex-basis: 300px; 
+    flex-shrink: 0;
+    flex-basis: 300px;
 }
 
 .paragrafo-container {
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     align-items: center;
-    flex: 1 1 500px; 
+    flex: 1 1 500px;
 }
 
-.Sobre p {   
-    font-size: 19px;     
+.Sobre p {
+    font-size: 19px;
     font-family: 'Montserrat', sans-serif;
-    margin: 0; 
+    margin: 0;
     max-width: 500px;
     line-height: 1.5em;
     text-align: justify;
+}
+
+@media screen and (max-width: 520px) {
+    .Sobre p {
+        font-size: 14px;
+    }
 }
