@@ -4,6 +4,8 @@ import QuemSou from './componentes/QuemSou/QuemSou'
 import QuemSou2 from './componentes/QuemSou2/QuemSou2'
 import RedesSociais from './componentes/RedesSociais/RedesSociais'
 import Servicos from './componentes/Servicos/Servicos'
+import Agendamento from './componentes/Agendamento/Agendamento'
+import Footer from './componentes/Footer/Footer'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <QuemSou2  />
       <RedesSociais />
       <Servicos />
+      <Agendamento />
+      <Footer />
     </div>
   );
 }

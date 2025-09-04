@@ -75,3 +75,9 @@
   transform: scale(1.15) rotate(5deg);
   box-shadow: 0 6px 20px #134558; 
 }
+
+@media screen and (max-width: 583px) {
+  .redes-sociais {
+    min-height: 30vh;
+  }
+}
