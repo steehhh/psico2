@@ -2,7 +2,7 @@ import './QuemSou2.css';
 
 function QuemSou2() {
     return (
-        <section className="quem-sou">
+        <section id='QuemSou2' className="quem-sou">
             <div className="quem-sou__texto">
                 <h2 className="quem-sou__titulo">SOBRE MIM</h2>
                 <h3 className="quem-sou__nome">Natalia Kieling</h3>

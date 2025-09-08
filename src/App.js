@@ -14,9 +14,9 @@ function App() {
       <Hero />
       <QuemSou />
       <QuemSou2  />
-      <RedesSociais />
       <Servicos />
       <Agendamento />
+      <RedesSociais />
       <Footer />
     </div>
   );

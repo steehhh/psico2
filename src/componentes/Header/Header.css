@@ -82,21 +82,17 @@
   .header__nav_list {
     display: flex;
     justify-content: space-between;
-    /* mantém espaçamento */
     align-items: center;
     width: 100%;
     padding: 0 80px;
-    /* inverte a ordem dos itens */
   }
 
-  /* Esconde itens extras */
   .header__nav_list_item2,
   .header__nav_list_item3,
   .header__nav_list_button_wrapper {
     display: none;
   }
 
-  /* Nathalia Kieling (agora visualmente à direita) */
   .header__nav_list_link {
     white-space: nowrap;
     line-height: 2;
@@ -108,7 +104,6 @@
     margin: 0;
   }
 
-  /* Hamburger (agora visualmente à esquerda) */
   .hamburger-container {
     display: flex;
     align-items: center;
@@ -131,7 +126,6 @@
     transition: transform 0.2s ease, opacity 0.3s ease;
   }
 
-  /* animação ao abrir */
   .hamburger-icon.open span:nth-child(1) {
     transform: rotate(45deg) translateY(8px);
   }
