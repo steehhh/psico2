@@ -15,9 +15,9 @@
 
 .redes-sociais__titulo {
   font-size: clamp(27px, 5vw, 42px);
-  font-weight: lighter;
+  font-weight: bold;
   font-family: 'Montserrat', sans-serif;
-  color: #245c73;
+  color: #134558;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 0;
