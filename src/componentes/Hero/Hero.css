@@ -8,9 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(1, 41, 129, 0.349), rgba(3, 24, 82, 0.5)),
-        url('/public/cadeiras.png') center/cover no-repeat;
-    ;
+    background: linear-gradient(rgba(1, 41, 129, 0.349), rgba(3, 24, 82, 0.5));
 }
 
 .Hero h1 {
@@ -33,9 +31,16 @@
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     padding: 20px 40px;
-    background-color: #656565;
+    background-color: #4189a6;
     border: none;
     border-radius: 45px;
     font-size: 13px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+    .Hero {
+        min-height: 100vh;
+        padding: clamp(100px, 20vh, 120px) clamp(16px, 5vw, 40px);
+    }
 }

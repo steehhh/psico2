@@ -1,0 +1,10 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background: linear-gradient(rgba(1, 42, 129, 0.226), rgba(3, 24, 82, 0.199)),
+        url('/public/cadeiras.png') center/cover no-repeat;
+}
